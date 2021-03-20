@@ -82,14 +82,14 @@
         android:layout_marginEnd="@dimen/_30sdp"
         android:layout_marginBottom="@dimen/_30sdp"
         android:background="@drawable/background_add_button"
+        android:clickable="true"
         android:contentDescription="@string/app_name"
+        android:focusable="true"
         android:src="@drawable/ic_add"
         android:tint="@color/colorPrimary"
         app:fabSize="normal"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:clickable="true"
-        android:focusable="true"/>
+        app:layout_constraintEnd_toEndOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
